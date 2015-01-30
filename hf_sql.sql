@@ -46,3 +46,20 @@ INSERT INTO my_contacts
 (first_name, email, profession, location)
 VALUES
 ('Pat', 'patpost@breakneckpizza.com', 'Postal Worker', 'Princeton, NJ');
+
+## =========================================
+## Chapter 2
+## =========================================
+CREATE DATABASE drinks;
+
+USE drinks;
+
+CREATE TABLE easy_drinks
+(
+	drink_name VARCHAR(50),
+	main VARCHAR(50),
+	amount1 DEC,
+	second VARCHAR(50),
+	amount2 DEC,
+	directions VARCHAR(200)
+);
